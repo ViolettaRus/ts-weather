@@ -1,0 +1,14 @@
+/* Weather Sounds App - Main Styles Import */
+
+/* Theme */
+@import './theme/variables.css';
+@import './theme/reset.css';
+
+/* Layout */
+@import './layout/App.css';
+
+/* Components */
+@import './components/Title.css';
+@import './components/SoundCards.css';
+@import './components/SoundCard.css';
+@import './components/VolumeControl.css';

@@ -1,0 +1,111 @@
+/* Weather Sounds App - Individual Sound Card */
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 240px;
+  border-radius: var(--radius-xl);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-lg);
+  border: 2px solid transparent;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+  transition: all var(--transition-normal);
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--shadow-xl);
+}
+
+.card:hover::before {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.card.active {
+  border-color: var(--accent-gold);
+  transform: translateY(-4px);
+  box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.2), var(--shadow-xl);
+}
+
+.card.active::before {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+
+/* Card Icon */
+.icon-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: var(--backdrop-light);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all var(--transition-normal);
+}
+
+.card:hover .icon-wrap {
+  transform: translate(-50%, -50%) scale(1.1);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.card.active .icon-wrap {
+  background: rgba(255, 215, 0, 0.2);
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.icon-wrap img {
+  width: 48px;
+  height: 48px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  transition: all var(--transition-normal);
+}
+
+.card:hover .icon-wrap img {
+  transform: scale(1.1);
+}
+
+/* Responsive Card */
+@media (max-width: 768px) {
+  .card {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    height: 180px;
+  }
+  
+  .icon-wrap {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .icon-wrap img {
+    width: 32px;
+    height: 32px;
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/VolumeControl.css';
 
 interface VolumeControlProps {
   volume: number;

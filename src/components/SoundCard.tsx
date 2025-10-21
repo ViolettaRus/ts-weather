@@ -1,6 +1,7 @@
 import React from 'react';
 import { SoundKey } from '../types';
 import { SOUND_CONFIG } from '../utils/config';
+import '../styles/components/SoundCard.css';
 
 interface SoundCardProps {
   soundKey: SoundKey;

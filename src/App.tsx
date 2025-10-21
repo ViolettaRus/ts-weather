@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
 import { useWeatherSounds } from './hooks/useWeatherSounds';
 import { SoundCards } from './components/SoundCards';
 import { VolumeControl } from './components/VolumeControl';
+import './styles/index.css';
 
 export default function App() {
   const { current, isPlaying, volume, setVolume, handleToggle } = useWeatherSounds();

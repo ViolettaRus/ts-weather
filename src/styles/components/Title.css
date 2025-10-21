@@ -1,0 +1,28 @@
+/* Weather Sounds App - Title Component */
+
+.title {
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-md);
+  text-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* Responsive Title */
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-4xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: var(--font-size-3xl);
+  }
+}
