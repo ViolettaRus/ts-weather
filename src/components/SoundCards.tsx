@@ -17,7 +17,7 @@ export const SoundCards: React.FC<SoundCardsProps> = ({
   const soundKeys: SoundKey[] = ['summer', 'rain', 'winter'];
 
   return (
-    <div className="cards">
+    <section className="cards" aria-label="Weather sound selection">
       {soundKeys.map((key) => {
         const active = current === key && isPlaying;
         return (
@@ -29,6 +29,6 @@ export const SoundCards: React.FC<SoundCardsProps> = ({
           />
         );
       })}
-    </div>
+    </section>
   );
 };

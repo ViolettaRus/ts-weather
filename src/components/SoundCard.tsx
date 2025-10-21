@@ -17,17 +17,24 @@ export const SoundCard: React.FC<SoundCardProps> = ({
   const config = SOUND_CONFIG[soundKey];
   
   return (
-    <button
-      className={`card ${isActive ? 'active' : ''}`}
-      onClick={() => onToggle(soundKey)}
-      aria-pressed={isActive}
-      style={{
-        backgroundImage: `url(${config.card})`
-      }}
-    >
-      <span className="icon-wrap">
-        <img src={config.icon} alt="" aria-hidden="true" />
-      </span>
-    </button>
+    <article className="sound-card-wrapper">
+      <button
+        className={`card ${isActive ? 'active' : ''}`}
+        onClick={() => onToggle(soundKey)}
+        aria-pressed={isActive}
+        aria-label={`Play ${soundKey} weather sounds`}
+        style={{
+          backgroundImage: `url(${config.card})`
+        }}
+      >
+        <span className="icon-wrap">
+          <img 
+            src={config.icon} 
+            alt={`${soundKey} weather icon`}
+            role="presentation"
+          />
+        </span>
+      </button>
+    </article>
   );
 };

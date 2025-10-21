@@ -13,6 +13,13 @@
   margin-top: var(--space-lg);
 }
 
+.volume-label {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-right: var(--space-sm);
+}
+
 .volume input[type="range"] {
   width: 280px;
   height: 8px;

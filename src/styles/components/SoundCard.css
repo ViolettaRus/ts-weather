@@ -1,5 +1,11 @@
 /* Weather Sounds App - Individual Sound Card */
 
+.sound-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   position: relative;
   width: 100%;

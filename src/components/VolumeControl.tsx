@@ -11,7 +11,10 @@ export const VolumeControl: React.FC<VolumeControlProps> = ({
   onVolumeChange 
 }) => {
   return (
-    <div className="volume volume-centered">
+    <div className="volume volume-centered" role="region" aria-label="Volume control">
+      <label htmlFor="volume" className="volume-label">
+        Volume Control
+      </label>
       <input
         id="volume"
         type="range"
@@ -20,10 +23,11 @@ export const VolumeControl: React.FC<VolumeControlProps> = ({
         step={0.01}
         value={volume}
         onChange={(e) => onVolumeChange(Number(e.target.value))}
-        aria-label="Громкость"
+        aria-label="Adjust volume level"
         aria-valuemin={0}
         aria-valuemax={1}
         aria-valuenow={volume}
+        aria-valuetext={`${Math.round(volume * 100)}% volume`}
       />
     </div>
   );

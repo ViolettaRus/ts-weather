@@ -10,18 +10,24 @@ export default function App() {
   return (
     <div className="frame">
       <div className="app">
-        <h1 className="title">Weather sounds</h1>
+        <header>
+          <h1 className="title">Weather sounds</h1>
+        </header>
 
-        <SoundCards 
-          current={current} 
-          isPlaying={isPlaying} 
-          onToggle={handleToggle} 
-        />
+        <main>
+          <SoundCards 
+            current={current} 
+            isPlaying={isPlaying} 
+            onToggle={handleToggle} 
+          />
+        </main>
 
-        <VolumeControl 
-          volume={volume} 
-          onVolumeChange={setVolume} 
-        />
+        <footer>
+          <VolumeControl 
+            volume={volume} 
+            onVolumeChange={setVolume} 
+          />
+        </footer>
       </div>
     </div>
   );
