@@ -1,219 +1,219 @@
 # Weather Sounds App
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-19.2.0-blue?style=for-the-badge&logo=react" alt="React Version" />
-  <img src="https://img.shields.io/badge/TypeScript-5.9.3-blue?style=for-the-badge&logo=typescript" alt="TypeScript Version" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/React-19.2.0-blue?style=for-the-badge&logo=react" alt="Версия React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.9.3-blue?style=for-the-badge&logo=typescript" alt="Версия TypeScript" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="Лицензия" />
 </div>
 
 <div align="center">
-  <h3>🎵 Immersive Weather Sound Experience</h3>
-  <p>A modern React application that provides ambient weather sounds with beautiful visual backgrounds and intuitive controls.</p>
+  <h3>🎵 Погружение в звуки природы</h3>
+  <p>Современное React приложение, которое предоставляет атмосферные звуки погоды с красивыми визуальными фонами и интуитивным управлением.</p>
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 📋 Содержание
 
-- [About The Project](#about-the-project)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+- [О проекте](#о-проекте)
+- [Технологии](#технологии)
+- [Начало работы](#начало-работы)
+- [Использование](#использование)
+- [Структура проекта](#структура-проекта)
+- [Возможности](#возможности)
+- [Скриншоты](#скриншоты)
+- [Планы развития](#планы-развития)
+- [Участие в разработке](#участие-в-разработке)
+- [Лицензия](#лицензия)
+- [Контакты](#контакты)
+- [Благодарности](#благодарности)
 
-## 🎯 About The Project
+## 🎯 О проекте
 
-Weather Sounds App is an immersive web application that allows users to experience different weather environments through high-quality ambient sounds. The app features three distinct weather scenarios: summer, rain, and winter, each with unique soundscapes and visual backgrounds.
+Weather Sounds App — это погружающее веб-приложение, которое позволяет пользователям испытать различные погодные условия через высококачественные атмосферные звуки. Приложение включает три различных погодных сценария: лето, дождь и зима, каждый с уникальными звуковыми пейзажами и визуальными фонами.
 
-### Key Features:
-- 🎵 **High-Quality Audio**: Immersive weather soundscapes
-- 🎨 **Dynamic Backgrounds**: Beautiful visual environments
-- 🔊 **Volume Control**: Precise audio level adjustment
-- 📱 **Responsive Design**: Works on all devices
-- ♿ **Accessibility**: Full ARIA support and keyboard navigation
-- 🎭 **Modern UI**: Glassmorphism effects and smooth animations
+### Ключевые особенности:
+- 🎵 **Высококачественный звук**: Погружающие звуковые пейзажи погоды
+- 🎨 **Динамические фоны**: Красивые визуальные окружения
+- 🔊 **Управление громкостью**: Точная настройка уровня звука
+- 📱 **Адаптивный дизайн**: Работает на всех устройствах
+- ♿ **Доступность**: Полная поддержка ARIA и навигация с клавиатуры
+- 🎭 **Современный UI**: Эффекты глассморфизма и плавные анимации
 
-## 🛠️ Built With
+## 🛠️ Технологии
 
-- **[React 19.2.0](https://reactjs.org/)** - Frontend framework
-- **[TypeScript 5.9.3](https://www.typescriptlang.org/)** - Type safety
-- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** - Styling with custom properties
-- **[Create React App](https://create-react-app.dev/)** - Development environment
-- **[Web Vitals](https://web.dev/vitals/)** - Performance monitoring
+- **[React 19.2.0](https://reactjs.org/)** - Фронтенд фреймворк
+- **[TypeScript 5.9.3](https://www.typescriptlang.org/)** - Типизация
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** - Стилизация с кастомными свойствами
+- **[Create React App](https://create-react-app.dev/)** - Среда разработки
+- **[Web Vitals](https://web.dev/vitals/)** - Мониторинг производительности
 
-## 🚀 Getting Started
+## 🚀 Начало работы
 
-### Prerequisites
+### Предварительные требования
 
-- Node.js (version 14 or higher)
-- npm or yarn package manager
+- Node.js (версия 14 или выше)
+- npm или yarn менеджер пакетов
 
-### Installation
+### Установка
 
-1. Clone the repository
+1. Клонируйте репозиторий
    ```bash
    git clone https://github.com/your-username/weather-sounds-app.git
    ```
 
-2. Navigate to the project directory
+2. Перейдите в директорию проекта
    ```bash
    cd weather-sounds-app
    ```
 
-3. Install dependencies
+3. Установите зависимости
    ```bash
    npm install
-   # or
+   # или
    yarn install
    ```
 
-4. Start the development server
+4. Запустите сервер разработки
    ```bash
    npm start
-   # or
+   # или
    yarn start
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+5. Откройте [http://localhost:3000](http://localhost:3000) для просмотра в браузере
 
-## 📖 Usage
+## 📖 Использование
 
-### Basic Usage
+### Основное использование
 
-1. **Select a Weather Sound**: Click on any of the three weather cards (Summer, Rain, Winter)
-2. **Control Playback**: Click the same card again to pause/resume
-3. **Adjust Volume**: Use the volume slider at the bottom to control audio level
-4. **Switch Sounds**: Click a different card to switch to another weather sound
+1. **Выберите звук погоды**: Нажмите на любую из трех карточек погоды (Лето, Дождь, Зима)
+2. **Управление воспроизведением**: Нажмите на ту же карточку снова, чтобы приостановить/возобновить
+3. **Настройка громкости**: Используйте слайдер громкости внизу для контроля уровня звука
+4. **Переключение звуков**: Нажмите на другую карточку, чтобы переключиться на другой звук погоды
 
-### Keyboard Navigation
+### Навигация с клавиатуры
 
-- **Tab**: Navigate between interactive elements
-- **Enter/Space**: Activate buttons and controls
-- **Arrow Keys**: Navigate volume slider
+- **Tab**: Переход между интерактивными элементами
+- **Enter/Space**: Активация кнопок и элементов управления
+- **Стрелки**: Навигация по слайдеру громкости
 
-## 📁 Project Structure
+## 📁 Структура проекта
 
 ```
 src/
-├── components/           # React components
-│   ├── SoundCard.tsx    # Individual sound card
-│   ├── SoundCards.tsx   # Sound cards container
-│   └── VolumeControl.tsx # Volume control component
-├── hooks/               # Custom React hooks
-│   └── useWeatherSounds.ts # Audio management hook
-├── styles/              # Modular CSS architecture
-│   ├── theme/           # Design system
-│   │   ├── variables.css # CSS custom properties
-│   │   └── reset.css    # CSS reset
-│   ├── layout/          # Layout styles
-│   │   └── App.css      # Main layout
-│   └── components/      # Component styles
+├── components/           # React компоненты
+│   ├── SoundCard.tsx    # Отдельная карточка звука
+│   ├── SoundCards.tsx   # Контейнер карточек звуков
+│   └── VolumeControl.tsx # Компонент управления громкостью
+├── hooks/               # Пользовательские React хуки
+│   └── useWeatherSounds.ts # Хук управления аудио
+├── styles/              # Модульная CSS архитектура
+│   ├── theme/           # Дизайн-система
+│   │   ├── variables.css # CSS кастомные свойства
+│   │   └── reset.css    # CSS сброс
+│   ├── layout/          # Стили макета
+│   │   └── App.css      # Основной макет
+│   └── components/      # Стили компонентов
 │       ├── Title.css
 │       ├── SoundCard.css
 │       ├── SoundCards.css
 │       └── VolumeControl.css
-├── types/               # TypeScript definitions
-│   └── index.ts        # Type definitions
-├── utils/               # Utility functions
-│   └── config.ts       # App configuration
-└── assets/             # Static assets
-    ├── icons/          # SVG icons
-    ├── sounds/         # Audio files
-    └── images/         # Background images
+├── types/               # TypeScript определения
+│   └── index.ts        # Определения типов
+├── utils/               # Утилитарные функции
+│   └── config.ts       # Конфигурация приложения
+└── assets/             # Статические ресурсы
+    ├── icons/          # SVG иконки
+    ├── sounds/         # Аудио файлы
+    └── images/         # Фоновые изображения
 ```
 
-## ✨ Features
+## ✨ Возможности
 
-### 🎵 Audio Features
-- **Loop Playback**: Seamless audio looping
-- **Volume Control**: Precise 0-100% volume adjustment
-- **Audio Management**: Automatic audio cleanup and memory management
-- **Cross-browser Support**: Works on all modern browsers
+### 🎵 Аудио возможности
+- **Зацикленное воспроизведение**: Бесшовное зацикливание аудио
+- **Управление громкостью**: Точная настройка громкости 0-100%
+- **Управление аудио**: Автоматическая очистка и управление памятью
+- **Кроссплатформенная поддержка**: Работает во всех современных браузерах
 
-### 🎨 Visual Features
-- **Dynamic Backgrounds**: Weather-specific background images
-- **Glassmorphism Effects**: Modern translucent UI elements
-- **Smooth Animations**: CSS transitions and transforms
-- **Responsive Design**: Mobile-first approach
+### 🎨 Визуальные возможности
+- **Динамические фоны**: Фоновые изображения для каждой погоды
+- **Эффекты глассморфизма**: Современные полупрозрачные UI элементы
+- **Плавные анимации**: CSS переходы и трансформации
+- **Адаптивный дизайн**: Mobile-first подход
 
-### ♿ Accessibility Features
-- **ARIA Labels**: Full screen reader support
-- **Keyboard Navigation**: Complete keyboard accessibility
-- **Semantic HTML**: Proper HTML5 semantic structure
-- **Focus Management**: Clear focus indicators
+### ♿ Возможности доступности
+- **ARIA метки**: Полная поддержка скрин-ридеров
+- **Навигация с клавиатуры**: Полная доступность с клавиатуры
+- **Семантический HTML**: Правильная HTML5 семантическая структура
+- **Управление фокусом**: Четкие индикаторы фокуса
 
-### 🏗️ Architecture Features
-- **Component Separation**: Modular React architecture
-- **TypeScript**: Full type safety
-- **Custom Hooks**: Reusable audio logic
-- **CSS Modules**: Organized styling system
+### 🏗️ Архитектурные возможности
+- **Разделение компонентов**: Модульная React архитектура
+- **TypeScript**: Полная типизация
+- **Пользовательские хуки**: Переиспользуемая логика аудио
+- **CSS модули**: Организованная система стилей
 
-## 📸 Screenshots
+## 📸 Скриншоты
 
 <div align="center">
-  <img src="public/assets/summer-bg.jpg" alt="Summer Weather" width="300" />
-  <img src="public/assets/rainy-bg.jpg" alt="Rain Weather" width="300" />
-  <img src="public/assets/winter-bg.jpg" alt="Winter Weather" width="300" />
+  <img src="public/assets/summer-bg.jpg" alt="Летняя погода" width="300" />
+  <img src="public/assets/rainy-bg.jpg" alt="Дождливая погода" width="300" />
+  <img src="public/assets/winter-bg.jpg" alt="Зимняя погода" width="300" />
 </div>
 
-## 🗺️ Roadmap
+## 🗺️ Планы развития
 
-- [ ] **Audio Visualization**: Real-time audio waveform display
-- [ ] **Sound Mixing**: Combine multiple weather sounds
-- [ ] **Timer Function**: Auto-stop after specified duration
-- [ ] **Playlist Feature**: Create custom sound sequences
-- [ ] **PWA Support**: Progressive Web App capabilities
-- [ ] **Dark/Light Theme**: Theme switching option
-- [ ] **Sound Library**: Additional weather sounds
-- [ ] **User Preferences**: Save volume and sound preferences
+- [ ] **Визуализация аудио**: Отображение аудио волн в реальном времени
+- [ ] **Смешивание звуков**: Комбинирование нескольких звуков погоды
+- [ ] **Функция таймера**: Автоматическая остановка через заданное время
+- [ ] **Функция плейлиста**: Создание пользовательских последовательностей звуков
+- [ ] **PWA поддержка**: Возможности Progressive Web App
+- [ ] **Темная/светлая тема**: Переключение тем
+- [ ] **Библиотека звуков**: Дополнительные звуки погоды
+- [ ] **Пользовательские настройки**: Сохранение настроек громкости и звуков
 
-## 🤝 Contributing
+## 🤝 Участие в разработке
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Вклад в проект делает open source сообщество таким удивительным местом для обучения, вдохновения и создания. Любой ваш вклад **очень ценится**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Форкните проект
+2. Создайте ветку для функции (`git checkout -b feature/AmazingFeature`)
+3. Зафиксируйте изменения (`git commit -m 'Add some AmazingFeature'`)
+4. Отправьте в ветку (`git push origin feature/AmazingFeature`)
+5. Откройте Pull Request
 
-### Development Guidelines
+### Руководство по разработке
 
-- Follow the existing code style and conventions
-- Write meaningful commit messages using Conventional Commits
-- Add TypeScript types for all new features
-- Update documentation for new features
-- Test your changes thoroughly
+- Следуйте существующему стилю кода и соглашениям
+- Пишите осмысленные сообщения коммитов, используя Conventional Commits
+- Добавляйте TypeScript типы для всех новых функций
+- Обновляйте документацию для новых функций
+- Тщательно тестируйте ваши изменения
 
-## 📄 License
+## 📄 Лицензия
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Распространяется под лицензией MIT. См. `LICENSE` для получения дополнительной информации.
 
-## 📞 Contact
+## 📞 Контакты
 
-**Your Name** - [@yourusername](https://twitter.com/yourusername) - email@example.com
+**Ваше имя** - [@yourusername](https://twitter.com/yourusername) - email@example.com
 
-Project Link: [https://github.com/your-username/weather-sounds-app](https://github.com/your-username/weather-sounds-app)
+Ссылка на проект: [https://github.com/your-username/weather-sounds-app](https://github.com/your-username/weather-sounds-app)
 
-## 🙏 Acknowledgments
+## 🙏 Благодарности
 
-- [React](https://reactjs.org/) - The web framework used
-- [TypeScript](https://www.typescriptlang.org/) - For type safety
-- [Create React App](https://create-react-app.dev/) - Development environment
-- [Best README Template](https://github.com/othneildrew/Best-README-Template) - README structure inspiration
-- [Unsplash](https://unsplash.com/) - Beautiful background images
-- [Freesound](https://freesound.org/) - High-quality audio samples
+- [React](https://reactjs.org/) - Используемый веб-фреймворк
+- [TypeScript](https://www.typescriptlang.org/) - Для типизации
+- [Create React App](https://create-react-app.dev/) - Среда разработки
+- [Best README Template](https://github.com/othneildrew/Best-README-Template) - Вдохновение для структуры README
+- [Unsplash](https://unsplash.com/) - Красивые фоновые изображения
+- [Freesound](https://freesound.org/) - Высококачественные аудио образцы
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ and React</p>
-  <p>⭐ Star this repository if you found it helpful!</p>
+  <p>Сделано с ❤️ и React</p>
+  <p>⭐ Поставьте звезду этому репозиторию, если он был полезен!</p>
 </div>
